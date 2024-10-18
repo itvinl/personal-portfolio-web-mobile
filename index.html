@@ -1,0 +1,226 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Personal Portfolio - Web & Mobile</title>
+    <link rel="stylesheet" href="./style.css">
+    <script src="./script.js" defer></script>
+    <script src="https://kit.fontawesome.com/84a3786002.js" crossorigin="anonymous"></script>
+</head>
+<body>
+    <section class="Home">
+        <div class="Menu">
+            <h1><a href="#">LOGO</a></h1>
+            <div class="Mobile_Bar" onclick="menuMobile()"><i class="fa-solid fa-bars"></i></div>
+            <ul class="Navigation">
+                <div class="AllNavigation">
+                    <li><a href="#">Home</a></li>
+                    <li><a href="#About">About</a></li>
+                    <li><a href="#Projects">Projects</a></li>
+                    <li><a href="#Services">Services</a></li>
+                    <li><a href="#Contact">Contact</a></li>
+                </div>
+            </ul>
+        </div>
+
+        <div class="Content" data-anime="down">
+            <div class="Text">
+                <h1>Personal<br/>Portfolio</h1>
+
+                <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit.<br/> Nullam lobortis sagittis dui, et porta purus.</p>
+            </div>
+
+            <div class="Image">
+                <div class="Photo"></div>
+                <div class="Square1"></div>
+                <div class="Square2"></div>
+
+                <div class="Social_Medias">
+                    <div class="GitHub"><a href="#" title="GitHub"><i class="fa-brands fa-github"></i></a></div>
+                    <div class="LinkedIn"><a href="#" title="LinkedIn"><i class="fa-brands fa-linkedin-in"></i></a></div>
+                    <div class="Instagram"><a href="#" title="Instagram"><i class="fa-brands fa-instagram"></i></a></div>
+                </div>
+            </div>
+        </div>
+
+        <div class="Circles">
+            <div class="Circle_Left"></div>
+            <div class="Circle_Right"></div>
+        </div>
+    </section>
+    
+    <section class="About" id="About">
+        <div class="About_Circle">
+            <div class="CircleTop"></div>
+        </div>
+
+        <div class="Informations">
+            <div class="Info_Image" data-anime="left">
+                <div class="Rectangle_Info3"></div>
+                <div class="Rectangle_Info2"></div>
+                <div class="Rectangle_Info1"></div>
+                <img src="./assets/IMG_1099.png" alt="My Image">
+            </div>
+            
+            <div class="Info_Text" data-anime="right">
+                <div class="About_Title">
+                    <div class="Border_Title"></div>
+                    <h1>ABOUT ME</h1>
+                </div>
+
+                <div class="Infos">
+                    <h1>Hello, I'm Professional Web Developer.</h1>
+                    <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Proin tempor ipsum vel mauris suscipit vehicula. Suspendisse 
+                        feugiat, lacus sit amet pharetra sodales, eros orci blandit quam, eu iaculis ante mi vel augue. Vivamus porttitor 
+                        vulputate velit. Vestibulum auctor justo purus, in feugiat lectus lobortis ut. Aenean mattis porta sodales. Proin 
+                        massa elit, accumsan et erat sit amet, sodales eleifend massa. Proin gravida tempor sapien. Phasellus ut metus blandit, 
+                        dictum ligula sed, aliquam diam.
+                    </p>
+                </div>
+
+                <button class="Info_Button"><i class="fa-solid fa-download"></i>DOWNLOAD CV</button>
+            </div>
+        </div>
+    </section>
+    
+    <section class="Projects" id="Projects">
+        <div class="Align_Circle_Top">
+            <div class="Align_Circle"></div>
+        </div>
+
+        <div class="Main_Content">
+            <div data-anime="top">
+                <div class="Main_Title">
+                    <div class="Main_Border_Title"></div>
+                    <h1>RECENT PROJECTS</h1>
+                </div>
+    
+                <div class="Main_Text" data-anime="top">
+                    <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Proin tempor ipsum vel mauris suscipit vehicula. Suspendisse 
+                        feugiat, lacus sit amet pharetra sodales, eros orci blandit quam, eu iaculis ante mi vel augue. Vivamus porttitor 
+                        vulputate velit. Aenean mattis porta sodales. Proin massa elit, accumsan et erat sit amet.
+                    </p>
+                </div>
+            </div>
+
+            <div class="List_Projects">
+                <a href="#" title="Project 1" data-anime="Project1"><img src="./assets/Project_Banner.png" alt="Project Image"></a>
+                
+                <a href="#" title="Project 2" data-anime="Project2"><img src="./assets/Project_Banner.png" alt="Project Image"></a>
+            </div>
+        </div>
+    </section>
+    
+    <section class="Services" id="Services">
+        <div class="Align_Circle_Top">
+            <div class="Align_Circle Serv"></div>
+        </div>
+
+        <div class="Main_Content">
+            <div data-anime="top">
+                <div class="Main_Title Alternative_Title" >
+                    <div class="Main_Border_Title Alternative_Border"></div>
+                    <h1>ALL SERVICES</h1>
+                </div>
+    
+                <div class="Main_Text Alternative_Text">
+                    <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Proin tempor ipsum vel mauris suscipit vehicula. Suspendisse 
+                        feugiat, lacus sit amet pharetra sodales, eros orci blandit quam, eu iaculis ante mi vel augue. Vivamus porttitor vulputate 
+                        velit. Vestibulum auctor justo purus, in feugiat lectus lobortis ut. Aenean mattis porta sodales. Proin massa elit, 
+                        accumsan et erat sit amet, sodales eleifend massa. Proin gravida tempor sapien. Phasellus ut metus blandit, dictum ligula 
+                        ed, aliquam diam. Proin tempor ipsum vel mauris suscipit vehicula. Suspendisse feugiat, lacus sit amet pharetra sodales, 
+                        eros orci blandit quam.
+                    </p>
+                </div>
+            </div>
+            
+            <div class="All_Services">
+                <div class="Group_Service" data-anime="Service1">
+                    <i class="fa-solid fa-layer-group"></i>
+                    <h2>Lorem Ipsum</h2>
+                    <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Fusce in laoreet mi. Pellentesque vel ante massa. Mauris 
+                        malesuada bibendum consequat. Duis convallis, est et scelerisque euismod, metus mauris aliquam turpis, mollis lobortis 
+                        elit mi vel elit. Ut ultricies nisl gravida quam porta, at sodales quam ultrices. Donec tortor dui, dapibus quis 
+                        dignissim sit amet, vulputate feugiat velit. Aliquam ultrices, risus at vehicula vestibulum, arcu nisi vestibulum 
+                        velit, vitae dictum nibh urna.
+                    </p>
+                </div>
+
+                <div class="Group_Service" data-anime="Service2">
+                    <i class="fa-solid fa-layer-group"></i>
+                    <h2>Lorem Ipsum</h2>
+                    <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Fusce in laoreet mi. Pellentesque vel ante massa. Mauris 
+                        malesuada bibendum consequat. Duis convallis, est et scelerisque euismod, metus mauris aliquam turpis, mollis lobortis 
+                        elit mi vel elit. Ut ultricies nisl gravida quam porta, at sodales quam ultrices. Donec tortor dui, dapibus quis 
+                        dignissim sit amet, vulputate feugiat velit. Aliquam ultrices, risus at vehicula vestibulum, arcu nisi vestibulum 
+                        velit, vitae dictum nibh urna.
+                    </p>
+                </div>
+
+                <div class="Group_Service" data-anime="Service3">
+                    <i class="fa-solid fa-layer-group"></i>
+                    <h2>Lorem Ipsum</h2>
+                    <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Fusce in laoreet mi. Pellentesque vel ante massa. Mauris 
+                        malesuada bibendum consequat. Duis convallis, est et scelerisque euismod, metus mauris aliquam turpis, mollis lobortis 
+                        elit mi vel elit. Ut ultricies nisl gravida quam porta, at sodales quam ultrices. Donec tortor dui, dapibus quis 
+                        dignissim sit amet, vulputate feugiat velit. Aliquam ultrices, risus at vehicula vestibulum, arcu nisi vestibulum 
+                        velit, vitae dictum nibh urna.
+                    </p>
+                </div>
+            </div>
+        </div>
+    </section>
+    
+    <section class="Contact" id="Contact">
+        <div class="Align_Circle_Top">
+            <div class="Align_Circle"></div>
+        </div>
+
+        <div class="Main_Content" data-anime="top">
+            <div class="Main_Title Adjust">
+                <div class="Main_Border_Title"></div>
+                <h1>CONTACT ME</h1>
+            </div>
+
+            <div class="Contact_Content">
+                <div class="Contact_Form">
+                    <form>
+                        <input type="text" name="name" placeholder="Name" required>
+                        
+                        <input type="email" name="email" placeholder="Email" required>
+
+                        <input type="tel" name="phone" placeholder="Phone" required>
+    
+                        <textarea name="message" placeholder="Message" required></textarea>
+                    
+                        <button class="Contact_Button"><i class="fa-solid fa-comments"></i>SEND MESSAGE</button>
+                    </form>
+                </div>
+                
+                <div class="Main_Text Adjustment">
+                    <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Mauris sagittis vehicula ligula, ac lacinia nibh porttitor in. 
+                        Donec ut velit pellentesque, sodales quam blandit, malesuada purus. Quisque venenatis arcu ac pharetra mollis. Fusce at 
+                        nisi molestie, blandit tellus ac, lobortis felis. Nullam turpis lectus, fringilla ac lectus ut, elementum vehicula tortor. 
+                        Quisque cursus lectus nisi, id iaculis leo laoreet ut. Sed quis scelerisque mauris, tempus vehicula nisl. Curabitur a purus 
+                        libero. Donec tortor dui, dapibus quis dignissim sit amet, vulputate feugiat velit. Aliquam ultrices, risus at vehicula 
+                        vestibulum, arcu nisi vestibulum velit, vitae dictum nibh urna. Mauris malesuada bibendum consequat. Duis convallis, 
+                        est et scelerisque euismod, metus mauris aliquam turpis, mollis lobortis elit.</br></br>
+    
+    
+                        </br>Donec in urna tristique lorem sollicitudin porta auctor non quam. Etiam pharetra nisl eget urna vulputate, iaculis eleifend 
+                        elit posuere. Maecenas eget leo eu urna pharetra lobortis non eu magna. Curabitur eget pretium magna. Proin tempus placerat 
+                        enim non ullamcorper. Aliquam nibh dui, vulputate a scelerisque sagittis, commodo in sem. Phasellus in magna et felis 
+                        congue condimentum. Vestibulum auctor justo purus, in feugiat lectus lobortis ut. Aenean mattis porta sodales. Proin 
+                        massa elit, accumsan et erat sit amet, sodales eleifend massa.
+                    </p>
+                </div>
+            </div>
+        </div>
+    </section>
+    
+    <footer class="Footer">
+        <p>Copyright © 2024 <strong>Personal Portfolio.</strong> All right reserved.</p>
+    </footer>
+</body>
+</html>
