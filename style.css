@@ -8,6 +8,7 @@
 }
 
 body { 
+    background-color: #EFEFEF;
     overflow-x: hidden;
 }
 
@@ -87,6 +88,7 @@ section {
 }
 
 .Navigation {
+    display: flex;
     list-style: none;
     align-items: center;
     font-weight: 550;
@@ -170,7 +172,7 @@ section {
 }
 
 .Text {
-    margin-right: 400px;
+    margin-right: 30%;
 }
 
 .Text h1 {
@@ -300,7 +302,6 @@ section {
     background-color: #EFEFEF;
     border-radius: 100%;
     margin: -69px 73px 0 0;
-    z-index: 0;
 }
 
 .Informations {
@@ -315,7 +316,7 @@ section {
 }
 
 .Info_Text {
-    margin: 40px 0 0 150px;
+    margin: 40px 0 0 12%;
 }
 
 .Rectangle_Info1, .Rectangle_Info2, .Rectangle_Info3 {
@@ -424,7 +425,7 @@ section {
 }
 
 .Main_Content {
-    margin: 120px 0 0 0;
+    margin: 120px 50px 0 50px;
     display: flex;
     flex-direction: column;
     align-items: center;
@@ -432,7 +433,8 @@ section {
 
 .Main_Title {
     display: flex;
-    width: 1120px;
+    width: 100%;
+    max-width: 1120px;
 }
 
 .Main_Border_Title {
@@ -457,7 +459,8 @@ section {
 }
 
 .Main_Text {
-    width: 1120px;
+    width: 100%;
+    max-width: 1120px;
 }
 
 .Main_Text p {
@@ -497,6 +500,7 @@ section {
     display: flex;
     justify-content: center;
     z-index: 1;
+    width: 100%;
 }
 
 .Group_Service {
@@ -545,19 +549,21 @@ section {
     letter-spacing: -0.01em;
 }
 
-.Adjust {
-    width: 1150px;
-}
-
 .Contact_Content {
     display: flex;
     margin-top: 60px;
 }
 
 .Contact_Form {
+    display: flex;
+    align-items: center;
     margin-right: 70px;
     text-align: center;
     width: 380px;
+}
+
+.Contact_Form input:nth-child(1) {
+    margin-top: 0px;
 }
 
 .Contact_Form input, .Contact_Form textarea {
@@ -640,7 +646,8 @@ input:-webkit-autofill, textarea:-webkit-autofill {
 }
 
 .Adjustment {
-    width: 700px;
+    width: 100%;
+    max-width: 700px;
 }
 
 .Footer {
@@ -649,6 +656,7 @@ input:-webkit-autofill, textarea:-webkit-autofill {
     align-items: center;
     width: 100%;
     height: 60px;
+    margin-top: 50px;
     background-color: #014444;
 }
 
@@ -746,6 +754,177 @@ input:-webkit-autofill, textarea:-webkit-autofill {
     [data-anime="Service3"] {
         transform: translate3d(0, 50px, 0);
     }
+
+    .Menu {
+        padding: 35px 50px;
+    }
+
+    .sticky {
+        padding: 15px 40px;
+    }
+
+    .Photo, .Square1, .Square2 {
+        width: 229px;
+        height: 239px;
+    }
+
+    .Photo {
+        margin-top: -45px;
+        margin-left: -60px;
+    }
+
+    .Square1 {
+        margin-top: -90px;
+    }
+
+    .Square2 {
+        margin-bottom: -90px;
+        right: 120px;
+    }
+
+    .Social_Medias {
+        margin-top: 105px;
+    }
+
+    .Text {
+        margin-right: 20%;
+    }
+
+    .Text h1 {
+        font-size: 80px;
+    }
+
+    .Text p {
+        font-size: 15px;
+    }
+
+    .About {
+        padding: 0 70px 40px 70px;
+    }
+
+    .Border_Title {
+        width: 4px;
+        height: 24px;
+    }
+
+    .Info_Text {
+        margin: 40px 0 0 6%;
+    }
+
+    .Rectangle_Info1, .Rectangle_Info2, .Rectangle_Info3 {
+        width: 60px;
+        height: 370px;
+        border-radius: 10px;
+    }
+
+    .Infos {
+        width: 100%;
+        max-width: 470px;
+    }
+
+    .Info_Image img {
+        right: 95px;
+        width: 234px;
+        height: 399px;
+    }
+
+    .Info_Image {
+        display: flex;
+        align-items: center;
+    }
+
+    .Info_Button {
+        padding: 8px 16px;
+        border: 1.5px solid #EFEFEF;
+        border-radius: 3px;
+    }
+
+    .Info_Button i {
+        font-size: 14px;
+    }
+
+    .Info_Text h1 {
+        font-size: 20px;
+    }
+
+    .Infos h1 {
+        font-size: 19px;
+    }
+
+    .Infos p {
+        font-size: 15px;
+    }
+
+    .Projects, .Contact {
+        padding-bottom: 70px;
+    }
+
+    .Main_Title h1 {
+        font-size: 20px;
+        margin-left: 8px;
+    }
+
+    .Main_Border_Title {
+        width: 4px;
+        height: 24px;
+    }
+
+    .Main_Text p {
+        font-size: 15px;
+    }
+
+    .List_Projects {
+        margin: 40px 0;
+    }
+
+    .List_Projects a:nth-child(1) {
+        margin-right: 0px;
+    }
+
+    .List_Projects img {
+        width: 290px;
+    }
+
+    .Group_Service {
+        padding: 35px 15px;
+    }
+
+    .Group_Service:nth-child(1) {
+        margin-left: 20px;
+    }
+    
+    .Group_Service:not(:last-child) {
+        margin-right: 20px;
+    }
+
+    .Group_Service i {
+        font-size: 19px;
+    }
+
+    .Group_Service h2 {
+        font-size: 18px;
+    }    
+
+    .Group_Service p {
+        font-size: 12px;
+    }
+
+    .Contact_Content {
+        margin-top: 30px;
+    }
+
+    .Contact_Form input, .Contact_Form textarea {
+        width: 230px;
+    }
+
+    .Contact_Button {
+        font-size: 11.5px;
+        width: 190px;
+    }
+
+    .Footer p {
+        font-size: 12px;
+    }
 }
 
 @media (max-width: 837px) {
@@ -756,14 +935,101 @@ input:-webkit-autofill, textarea:-webkit-autofill {
 
     .Content {
         flex-direction: column;
-        height: 80vh;
-        padding-top: 50px;
+        padding-top: 80px;
+    }
+
+    .Text h1 {
+        font-size: 70px;
+        letter-spacing: 1.5px;
+        line-height: 60px;
+    }
+
+    .Text p {
+        font-size: 14px;
+    }
+
+    .Photo, .Square1, .Square2 {
+        width: 179px;
+        height: 189px;
+        border-radius: 40px;
+    }
+
+    .Photo {
+        margin-left: -50px;
+    }
+
+    .Square2 {
+        right: 95px;
     }
 
     .Menu {
         padding: 30px;
         transition: 0.2s;
         justify-content: normal;
+    }
+
+    .GitHub i {
+        padding: 4px;
+        font-size: 20px;
+    }
+
+    .LinkedIn i {
+        padding: 6px 7px 5px 7px;
+        font-size: 17px;
+    }
+
+    .Instagram i {
+        padding: 5px 6px;
+        font-size: 18px;
+    }
+
+    .GitHub, .LinkedIn {
+        margin-right: 20px;
+    }
+
+    .Social_Medias {
+        margin-left: -75px;
+    }
+
+    .Rectangle_Info1, .Rectangle_Info2, .Rectangle_Info3 {
+        width: 40px;
+        height: 245px;
+        border-radius: 7px;
+    }
+
+    .Info_Image img {
+        right: 59px;
+        width: 150px;
+        height: 260px;
+        bottom: 16px;
+    }
+
+    .Info_Button {
+        padding: 7px 14px;
+        margin-top: 20px;
+        font-size: 12px;
+    }
+
+    .Info_Button i {
+        font-size: 13px;
+        margin-right: 6px;
+    }
+
+    .Info_Text h1 {
+        font-size: 18px;
+    }
+
+    .Infos h1 {
+        margin: 25px 0 0 0;
+        font-size: 17px;
+    }
+
+    .Infos p {
+        font-size: 13px;
+    }
+
+    .Border_Title {
+        height: 21px;
     }
 
     .act {
@@ -836,11 +1102,11 @@ input:-webkit-autofill, textarea:-webkit-autofill {
     }
 
     .Text {
-        margin: 0 0 150px 0;
+        margin: 0 0 120px 0;
     }
 
     .Image {
-        margin-left: 140px;
+        margin-left: 120px;
     }
 
     .Circles {
@@ -862,10 +1128,11 @@ input:-webkit-autofill, textarea:-webkit-autofill {
     .Informations {
         flex-direction: column;
         align-items: center;
+        margin-top: 30px;
     }
 
     .Info_Text {
-        margin: 70px 0 0 0px;
+        margin: 25px 0 0 0px;
     }
 
     .Info_Image {
@@ -881,18 +1148,32 @@ input:-webkit-autofill, textarea:-webkit-autofill {
     }
 
     .Main_Content {
-        margin: 120px 50px 0 50px;
+        margin: 30px 50px 0 50px;
         align-items: flex-start;
     }
 
+    .Main_Title h1 {
+        font-size: 18px;
+        margin-left: 8px;
+    }
+
+    .Main_Border_Title {
+        height: 21px;
+    }
+
+    .Main_Text p {
+        font-size: 13px;
+    }
+
     .List_Projects {
+        margin: 30px 0;
         flex-direction: column;
         margin-left: auto;
         margin-right: auto;
     }
 
     .List_Projects a:nth-child(1) {
-        margin: 0 0 60px 0;
+        margin: 0 0 30px 0;
     }
 
     .List_Projects a:nth-child(2) {
@@ -900,11 +1181,25 @@ input:-webkit-autofill, textarea:-webkit-autofill {
     }
 
     .List_Projects img {
-        width: 400px;
+        width: 280px;
     }
 
     .All_Services {
         flex-direction: column;
+        margin-top: 30px;
+    }
+
+    .Group_Service i {
+        font-size: 17px;
+    }
+
+    .Group_Service h2 {
+        font-size: 16px;
+        margin-top: 6px;
+    }
+
+    .Group_Service p {
+        font-size: 10px;
     }
 
     .Group_Service:nth-child(1) {
@@ -916,12 +1211,38 @@ input:-webkit-autofill, textarea:-webkit-autofill {
     }
 
     .Group_Service:not(:last-child) {
-        margin: 0 0 50px 0;
+        margin: 0 0 30px 0;
     }
 
     .Group_Service {
+        padding: 17px 15px;
         width: auto;
         height: auto;
+    }
+
+    .Adjustment p {
+        margin-top: 0px;
+    }
+
+    .Contact_Form input, .Contact_Form textarea {
+        padding: 0 5px 15px 5px;
+        width: 260px;
+    }
+
+    ::-webkit-input-placeholder {
+        font-size: 13px;
+    }
+    
+    ::-moz-placeholder {
+        font-size: 13px;
+    }
+    
+    :-ms-input-placeholder {
+        font-size: 13px;
+    }
+    
+    :-o-input-placeholder {
+        font-size: 13px;
     }
 
     .Contact_Content {
@@ -931,15 +1252,28 @@ input:-webkit-autofill, textarea:-webkit-autofill {
     }
 
     .Contact_Form {
-        margin: 50px 0 0 0;
+        margin: 30px 0 0 0;
+    }
+
+    .Contact_Button {
+        margin-top: 25px;
+        font-size: 10.5px;
+        width: 170px;
     }
     
+    .Footer {
+        margin-top: 100px;
+    }
 }
 
 @media (max-width: 600px) {
     /*Mobile*/
+    .Home {
+        height: 650px;
+    }
+
     .Content {
-        padding-top: 20px;
+        padding-top: 50px;
     }
 
     .Text h1 {
@@ -999,14 +1333,15 @@ input:-webkit-autofill, textarea:-webkit-autofill {
     .Circle_Left {
         width: 150px;
         height: 150px;
-        margin-left: -85px;
+        margin-left: -75px;
+        margin-top: 115px;
     }
 
     .Circle_Right {
         width: 200px;
         height: 200px;
         margin-right: -110px;
-        margin-top: 45px;
+        margin-top: 75px;
     }
 
     .About {
@@ -1023,7 +1358,7 @@ input:-webkit-autofill, textarea:-webkit-autofill {
     }
 
     .Main_Content {
-        margin: 60px 30px 0 30px;
+        margin: 40px 30px 0 30px;
     }
 
     .Main_Border_Title {
@@ -1092,24 +1427,16 @@ input:-webkit-autofill, textarea:-webkit-autofill {
         font-size: 12px;
     }
 
-    .List_Projects {
-        margin-top: 50px;
-    }
-
     .List_Projects img {
-        width: 270px;
+        width: 260px;
     }
 
     .List_Projects a:nth-child(1) {
-        margin: 0 0 40px 0;
+        margin: 0 0 25px 0;
     }
 
     .Projects {
         padding-bottom: 0px;
-    }
-
-    .Services {
-        padding-bottom: 280px;
     }
 
     .All_Services {
@@ -1139,12 +1466,8 @@ input:-webkit-autofill, textarea:-webkit-autofill {
         margin: 0 0 30px 0;
     }
 
-    .Contact {
-        padding-bottom: 20vh;
-    }
-
     .Contact_Form {
-        margin: 20px 0 0 0;
+        margin: 40px 0 0 0;
         width: 300px;
     }
 
@@ -1177,6 +1500,7 @@ input:-webkit-autofill, textarea:-webkit-autofill {
     }
 
     .Footer {
+        margin-top: 50px;
         height: 80px;
     }
 }
