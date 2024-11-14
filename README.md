@@ -12,3 +12,4 @@ This project is a **Personal Portfolio - Web & Mobile**, to use as a basis for y
 - CSS
 - JavaScript
 - Responsive Design
+- Icons Library (Font Awesome)
